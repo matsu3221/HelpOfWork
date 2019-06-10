@@ -5,6 +5,7 @@
 //  Created by 松本唯尊 on 2019/05/31.
 //  Copyright © 2019 松本唯尊. All rights reserved.
 //
+//  gitへの初push 2019/6/9
 
 import UIKit
 import RealmSwift
@@ -30,6 +31,7 @@ class TodoListViewController: UIViewController,UITableViewDataSource,UITableView
 
     todoLists = realm.objects(TodoList.self)
     // Do any additional setup after loading the view.
+    print("Gittest")
   }
 
   override func awakeFromNib() {
